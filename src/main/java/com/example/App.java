@@ -71,7 +71,7 @@ public class App {
 
     private void listarEstados(Connection conn) {
         try{
-            System.out.println("Conexão com o banco realizada com sucesso.");
+            System.out.println("Ok. Conexão com o banco realizada com sucesso.");
 
             var statement = conn.createStatement();
             var result = statement.executeQuery("select * from estado");
