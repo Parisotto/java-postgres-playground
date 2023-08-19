@@ -15,7 +15,7 @@ public class App {
 
     public App(){
         try(var conn = getConnection()){
-            carregarDriverJDBC();
+            //carregarDriverJDBC();
             listarEstados(conn);
             localizarEstado(conn, "PR");
             listarDadosTabela(conn, "produto");
