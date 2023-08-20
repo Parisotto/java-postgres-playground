@@ -4,7 +4,7 @@ public class Estado {
     private Long id;
     private String nome;
     private String uf;
-    private RegioGeografica regiao;
+    private RegiaoGeografica regiao;
     private int arealKm2;
     private int populacao;
     
@@ -26,10 +26,10 @@ public class Estado {
     public void setUf(String uf) {
         this.uf = uf;
     }
-    public RegioGeografica getRegiao() {
+    public RegiaoGeografica getRegiao() {
         return regiao;
     }
-    public void setRegiao(RegioGeografica regiao) {
+    public void setRegiao(RegiaoGeografica regiao) {
         this.regiao = regiao;
     }
     public int getArealKm2() {
